@@ -76,7 +76,7 @@ body {
 }
 
 .home {
-  background: url("../img/home/home-bg.png") center center/cover no-repeat;
+  background: url("../img/home/home-bg.png") center center/cover no-repeat fixed;
   padding: 286px 0 244px;
 }
 .home .home__title {
