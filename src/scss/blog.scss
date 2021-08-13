@@ -1,0 +1,118 @@
+.blog{
+  padding: 0 0 142px;
+  .blog__title{
+    font-family: Gelasio,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  .blog__subtitle{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 56px;
+  }
+  .blog__attraction{
+    .row{
+      width: 1140px;
+      justify-content: space-between;
+      .col-6{
+        &.first{
+          width: 554px;
+          .bnf{
+            width: 554px;
+            height: 397px;
+            .bnf-img{
+              width: 100%;
+            }
+          }
+          .bnf__title{
+            margin: 35px 0 10px;
+            font-family: Gelasio,sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 160%;
+            color: #000000;
+          }
+          .bnf__about{
+            font-family: Roboto,sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 160%;
+            color: #000000;
+            opacity: 0.6;
+            margin-bottom: 10px;
+          }
+          .bnf__user{
+            font-family: Roboto,sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            color: #000000;
+          }
+        }
+        &.second{
+          width: 532px;
+          margin-left: 32px;
+          .row{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            .col-4{
+              position: relative;
+              width: 532px;
+              margin-bottom: 30px;
+              .blog__mini-text{
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 233px;
+                margin-left: 27px;
+                padding: 33px 0;
+                .blog__mini__title{
+                  font-family: Gelasio,sans-serif;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 20px;
+                  line-height: 150%;
+                  color: #000000;
+                }
+                .blog__mini__about{
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 18px;
+                  line-height: 160%;
+                  color: #000000;
+                  opacity: 0.6;
+                  margin: 10px 0 5px;
+                }
+                .blog__mini_user{
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 20px;
+                  line-height: 150%;
+                  color: #000000;
+                  opacity: 0.8;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

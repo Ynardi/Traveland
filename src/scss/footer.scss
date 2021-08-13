@@ -1,0 +1,125 @@
+.footer{
+  padding: 70px 78px;
+  .block{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .footer__box{
+      .footer__logo{
+        margin-bottom: 30px;
+      }
+      .contact{
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 160%;
+        letter-spacing: 0.06em;
+        color: #000000;
+      }
+      .email-link{
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 160%;
+        letter-spacing: 0.06em;
+        color: #000000;
+        margin-top: 10px;
+      }
+      .footer__icon-box{
+        width: 160px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-right: 127px;
+        .foot__Btn{
+          width: 20px;
+          height: 20px;
+          border: none;
+          cursor: pointer;
+          .icon-img{
+            width: 100%;
+            margin-right: 27px;
+          }
+        }
+      }
+    }
+    .links {
+      margin-right: 121px;
+      list-style: none;
+      .foot-link {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.06em;
+        color: #000000;
+        margin-bottom: 20px;
+        cursor: pointer;
+      }
+    }
+    .subscribe{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 355px;
+      .subscribe__text{
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.06em;
+        color: #000000;
+        margin-bottom: 42px;
+      }
+      .footer__form{
+        position: relative;
+        height: 44px;
+        width:333px;
+        display: flex;
+        flex-direction: row;
+        .footer__label{
+          .footer__input{
+            width: 195px;
+            height: 44px;
+            margin-right: 35px;
+            opacity: 0.1;
+            border: 1px solid #000000;
+            box-sizing: border-box;
+            box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.15);
+            border-radius: 5px;
+            font-family: Roboto,sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.06em;
+            color: #000000;
+          }
+          .send__Btn{
+            background: #C9453B;
+            border-radius: 5px;
+            padding: 10px 32px;
+            font-family: Roboto,sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+            border: none;
+            position: absolute;
+            right: 0;
+            top: 0;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

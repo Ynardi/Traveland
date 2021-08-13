@@ -1,0 +1,24 @@
+.offers{
+  padding: 0 0 140px;
+  .offers__title{
+    font-family: Gelasio,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 140%;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .offers__subtitle{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 60px;
+  }
+}
