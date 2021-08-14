@@ -30,39 +30,40 @@
       flex-wrap: wrap;
       justify-content: space-between;
       .col-4{
-        width: 360px;
-        background: #FFFFFF;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        box-sizing: border-box;
-        box-shadow: 0 6px 35px rgba(0, 0, 0, 0.08);
-        border-radius: 10px;
-        //background: #000;
-        .location__box-img{
-          width: 300px;
-          .location__block_box-img{
-            width: 100%;
+        .box__location{
+          width: 360px;
+          background: #FFFFFF;
+          border: 1px solid rgba(0, 0, 0, 0.1);
+          box-sizing: border-box;
+          box-shadow: 0 6px 35px rgba(0, 0, 0, 0.08);
+          border-radius: 10px;
+          .location__box-img{
+             width: 300px;
+             .location__block_box-img{
+               width: 100%;
+             }
+           }
+          .location__block_title{
+            margin: 35px 0 10px;
+            font-family: Gelasio,sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 150%;
+            text-align: center;
+            color: #000000;
           }
-        }
-        .location__block_title{
-          margin: 35px 0 10px;
-          font-family: Gelasio,sans-serif;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 24px;
-          line-height: 150%;
-          text-align: center;
-          color: #000000;
-        }
-        .location__block_subtitle{
-          font-family: Roboto,sans-serif;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 18px;
-          line-height: 160%;
-          text-align: center;
-          color: #000000;
-          opacity: 0.6;
-          margin-bottom: 33px;
+          .location__block_subtitle{
+            font-family: Roboto,sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 160%;
+            text-align: center;
+            color: #000000;
+            opacity: 0.6;
+            margin-bottom: 33px;
+          }
         }
       }
     }

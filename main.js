@@ -5,7 +5,7 @@ $('.offers__carousel').slick({
     slidesToScroll: 1,
     center:true,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
 
 
 });

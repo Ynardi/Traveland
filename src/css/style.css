@@ -16,6 +16,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
   position: absolute;
   margin-top: 35px;
@@ -152,7 +156,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.location .location__block .row .col-4 {
+.location .location__block .row .col-4 .box__location {
   width: 360px;
   background: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -162,13 +166,13 @@ body {
           box-shadow: 0 6px 35px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
 }
-.location .location__block .row .col-4 .location__box-img {
+.location .location__block .row .col-4 .box__location .location__box-img {
   width: 300px;
 }
-.location .location__block .row .col-4 .location__box-img .location__block_box-img {
+.location .location__block .row .col-4 .box__location .location__box-img .location__block_box-img {
   width: 100%;
 }
-.location .location__block .row .col-4 .location__block_title {
+.location .location__block .row .col-4 .box__location .location__block_title {
   margin: 35px 0 10px;
   font-family: Gelasio, sans-serif;
   font-style: normal;
@@ -178,7 +182,7 @@ body {
   text-align: center;
   color: #000000;
 }
-.location .location__block .row .col-4 .location__block_subtitle {
+.location .location__block .row .col-4 .box__location .location__block_subtitle {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;

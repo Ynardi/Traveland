@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ca528c6-253a-4825-99bf-9a50775380de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/location.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/location.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +51,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Js\projects\Traveland\src\img\footer" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\Js\projects\Traveland\src\img\location" />
       <recent name="C:\Users\User\Desktop\Js\projects\Traveland\src\img\footer" />
       <recent name="C:\Users\User\Desktop\Js\projects\Traveland\src\img\fb" />
       <recent name="C:\Users\User\Desktop\Js\projects\Traveland\src\img\tw" />
       <recent name="C:\Users\User\Desktop\Js\projects\Traveland\src\img\in" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\Js\projects\Traveland\src\img\footer" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -73,7 +74,9 @@
       <updated>1628786904346</updated>
       <workItem from="1628786905738" duration="9681000" />
       <workItem from="1628828772533" duration="5697000" />
-      <workItem from="1628860164252" duration="8052000" />
+      <workItem from="1628860164252" duration="9057000" />
+      <workItem from="1628875263410" duration="91000" />
+      <workItem from="1628957494965" duration="590000" />
     </task>
     <servers />
   </component>
